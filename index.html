@@ -507,7 +507,7 @@
     </nav>
 
     <!-- Language Toggle -->
-    <button class="lang-toggle" onclick="toggleLanguage()">🌐 TH | EN</button>
+    <button class="lang-toggle" onclick="toggleLanguage()">TH | EN</button>
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
@@ -661,7 +661,7 @@
                 </div>
             </div>
 
-            <div class="card waste-type" style="border-left-color: #2196F3;">
+            <div class="card waste-type" style="border-left-color: #1979b9;">
                 <span class="card-icon"></span>
                 <h3 class="card-title" style="color: #2196F3;">ถังน้ำเงิน - ทั่วไป</h3>
                 <p><strong>ตัวอย่าง:</strong> เศษผ้า, ยาง, เครื่องใช้ เก่า, ขยะผสม</p>
@@ -707,11 +707,11 @@
                 <div>แต้มแลกถุงผ้ารักษ์โลก 1 ใบ</div>
             </div>
             <div class="points-card">
-                <div class="points-number">555</div>
+                <div class="points-number">500</div>
                 <div>แต้มแลกต้นไม้เพื่อปลูกป่า</div>
             </div>
             <div class="points-card">
-                <div class="points-number">10000</div>
+                <div class="points-number">5000</div>
                 <div>แต้มแลกใบประกาศยกย่อง</div>
             </div>
         </div>
@@ -981,7 +981,7 @@
         function toggleLanguage() {
             currentLang = currentLang === 'TH' ? 'EN' : 'TH';
             const btn = document.querySelector('.lang-toggle');
-            btn.textContent = currentLang === 'TH' ? '🌐 TH | EN' : '🌐 EN | TH';
+            btn.textContent = currentLang === 'TH' ? ' TH | EN' : ' EN | TH';
             
             // Here you would implement actual language switching
             alert(currentLang === 'TH' ? 
